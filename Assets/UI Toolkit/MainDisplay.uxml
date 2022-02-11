@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 100%; width: 100%; opacity: 0.75; display: flex; background-color: rgb(255, 255, 255); align-items: center;">
+        <ui:Label text="ActivIoT" display-tooltip-when-elided="true" name="Name" style="width: 322px; height: 100px; -unity-font: url(&apos;Library/unity default resources&apos;); color: rgb(70, 70, 70); font-size: 80px;" />
+        <ui:ScrollView style="height: 100%; width: 100%;">
+            <ui:Foldout text="Vacuum" name="VacuumDNF" value="false" focusable="false" style="color: rgb(32, 32, 32); font-size: 48px; -unity-text-align: upper-left; cursor: initial;">
+                <ui:VisualElement style="font-size: 32px; -unity-text-align: upper-center; align-items: center;">
+                    <ui:Label text="when I am" display-tooltip-when-elided="true" />
+                    <ui:TextField picking-mode="Ignore" value="Out of the house." text="Out of the house." style="width: 90%;" />
+                    <ui:VisualElement style="width: 85%; position: relative; align-items: stretch; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
+                        <ui:VisualElement style="width: auto; height: 50px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-direction: row;">
+                            <ui:Button text="X" display-tooltip-when-elided="true" />
+                            <ui:Label text="Test Device" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="width: auto; height: 50px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-direction: row;">
+                            <ui:Button text="X" display-tooltip-when-elided="true" />
+                            <ui:Label text="Test 2" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="width: auto; height: 50px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-direction: row;">
+                            <ui:Button text="X" display-tooltip-when-elided="true" />
+                            <ui:Label text="Test Three" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="width: auto; height: 50px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-direction: row;">
+                            <ui:Button text="X" display-tooltip-when-elided="true" />
+                            <ui:Label text="Test Device" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="width: auto; height: 50px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-direction: row;">
+                            <ui:Button text="X" display-tooltip-when-elided="true" />
+                            <ui:Label text="Test Three" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+        </ui:ScrollView>
+        <ui:Button text="Add Behavior" display-tooltip-when-elided="true" style="bottom: auto; position: relative; top: auto; justify-content: flex-start; height: 60px; width: 200px; align-items: center; margin-bottom: 30px; font-size: 24px;" />
+    </ui:VisualElement>
+</ui:UXML>
